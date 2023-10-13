@@ -20,4 +20,10 @@ img{
     font-weight: 900;
 }
 
+.text-image-section{
+    display: flex;
+    padding: 6rem 4rem;
+    justify-content: center;
+
+}
 
