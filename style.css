@@ -22,18 +22,14 @@ img{
 
 .text-image-section{
     display: flex;
-    padding: 6rem 4rem;
+    padding: 8rem 15rem;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 1rem;
     text-align: start;
-    vertical-align: baseline;
-
+    text-size-adjust: 40px;
+    
 }
-
-
-
-
 .text-image-section:nth-child(odd){
     flex-direction: row-reverse;
 }
@@ -43,6 +39,7 @@ img{
 .text-image-section:last-child{
     background-color: whitesmoke;
 }
+
 
 .big{
     display: inline-flex;
@@ -58,10 +55,11 @@ img{
 /*elemento footer*/
 #article-footer{
     display: flex;
-    align-items: center;
+    flex-direction: column;
     background-color: rgb(36, 40, 46);
-    padding: 3rem 1rem;
+    padding: 6rem 2rem;
     position: static;
+    
 }
 
 #select-language{
@@ -72,5 +70,29 @@ img{
 }
 #select-language, #social{
     display: flex;
+    align-items: flex-start;
+}
+#select-language{
+    width: 100px;
+
     
+}
+select option{
+    background-color: #fff;
+    color: #000;
+
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    list-style-type: none;
+    justify-content: end;
+    gap: 4rem;
+    font-size: 13px;
+}
+
+li{
+    color: #fff;
 }
