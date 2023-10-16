@@ -21,7 +21,10 @@ img{
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
 }
+/*Elemento header*/
 
+
+    /* elemento Main*/
 .text-image-section{
     display: flex;
     padding: 8rem 15rem;
@@ -71,7 +74,6 @@ img{
     background-color: rgb(36, 40, 46);
     padding: 2rem 2rem;
 }
-
 
 #select-language{
     background: none;
